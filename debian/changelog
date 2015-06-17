@@ -1,0 +1,21 @@
+ros-indigo-wireless-watcher (0.0.3-0trusty) trusty; urgency=high
+
+  * Added ESSID and BSSID fields, use floats for bitrate
+  * Contributors: Alex Bencz
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 17 Jun 2015 04:00:00 -0000
+
+ros-indigo-wireless-watcher (0.0.2-0trusty) trusty; urgency=high
+
+  * Workaround to suppress DummyThread error spew.
+  * Add simple boolean to publish ethernet-has-ip status.
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 24 Oct 2013 04:00:00 -0000
+
+ros-indigo-wireless-watcher (0.0.1-0trusty) trusty; urgency=high
+
+  * Catkinize wireless_watcher
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 17 Oct 2013 04:00:00 -0000
+
+
