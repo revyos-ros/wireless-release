@@ -2,6 +2,9 @@
 Changelog for package wireless_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.4 (2015-06-25)
+------------------
+
 0.0.3 (2015-06-17)
 ------------------
 * Added ESSID and BSSID fields, use floats for bitrate
