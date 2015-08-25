@@ -2,6 +2,11 @@
 Changelog for package wireless_watcher
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.5 (2015-08-25)
+------------------
+* Added checks for missing fields
+* Contributors: Mustafa Safri
+
 0.0.4 (2015-06-25)
 ------------------
 * Add install rule for launch dir
