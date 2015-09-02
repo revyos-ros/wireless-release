@@ -1,0 +1,90 @@
+#!/usr/bin/python
+
+# See: http://stackoverflow.com/a/13193573/109517
+import threading
+threading._DummyThread._Thread__stop = lambda x: 42
+
+import rospy
+import wireless_msgs.msg
+import std_msgs.msg
+import subprocess, re
+
+rospy.init_node('wireless_watcher')
+
+hz = rospy.get_param('~hz', 1)
+dev = rospy.get_param('~dev', 'wlan0')
+previous_error = False
+previous_success = False
+r = rospy.Rate(hz)
+
+def trim(field, type=int):
+    m = re.match('[0-9-.]+', field)
+    if m:
+        return type(m.group(0))
+
+class Connection(wireless_msgs.msg.Connection):
+    def __init__(self, fields):
+        args = {}
+
+        args['bitrate'] = trim(fields.get('Bit Rate', "0.0"), float)
+        args['txpower'] = trim(fields.get('Tx-Power', "0"))
+        args['signal_level'] = trim(fields.get('Signal level', "0"))
+        args['noise_level'] = trim(fields.get('Noise level', "0"))
+        args['essid'] = fields.get('ESSID', "").strip('"')
+        args['bssid'] = fields.get('Access Point', "").strip()
+
+        try:
+          args['link_quality_raw'] = fields['Link Quality']
+          num, den = re.split('/', args['link_quality_raw'])
+          args['link_quality'] = float(num) / float(den)
+        except: pass
+
+        super(Connection, self).__init__(**args)
+
+class Network(wireless_msgs.msg.Network):
+    def __init__(self, fields):
+        args = {}
+        super(Network, self).__init__(**args)
+
+
+connection_pub = rospy.Publisher('connection', Connection)
+
+# Disable this until we actually collect and publish the data.
+# network_pub = rospy.Publisher('network', Network)
+
+connected_pub = rospy.Publisher('connected', std_msgs.msg.Bool)
+
+while not rospy.is_shutdown():
+  try:
+    ip_str = subprocess.check_output(['ip', 'addr', 'show', dev], stderr=subprocess.STDOUT);
+    if re.search(r'^\s*inet\s', ip_str, re.MULTILINE):
+      connected_pub.publish(True)
+  except subprocess.CalledProcessError:
+    connected_pub.publish(False)
+    
+  try:
+    wifi_str = subprocess.check_output(['iwconfig', dev], stderr=subprocess.STDOUT);
+    fields_str = re.split('\s\s+', wifi_str)
+    fields_list = [re.split('[:=]', field_str, maxsplit=1) for field_str in fields_str]
+    fields_dict = { 'dev': fields_str[0], 'type': fields_str[1] }
+    fields_dict.update(dict([field for field in fields_list if len(field) == 2 ]))
+
+    # Check if WiFi is connected to a network
+    connection_msg = {}
+    if "Not-Associated" not in fields_dict['Access Point']:
+      connection_msg = Connection(fields_dict)
+
+    connection_pub.publish(connection_msg)
+
+    if not previous_success:
+      previous_success = True
+      previous_error = False
+      rospy.loginfo("Retrieved status of interface %s. Now updating at %f Hz." % (dev, hz))
+
+  except subprocess.CalledProcessError:
+    if not previous_error:
+      previous_error = True
+      previous_success = False
+      rospy.logerr("Error checking status of interface %s. Will try again at %f Hz." % (dev, hz))
+    
+  r.sleep()
