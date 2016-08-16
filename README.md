@@ -1,3 +1,28 @@
+## wireless (jade) - 0.0.7-0
+
+The packages in the `wireless` repository were released into the `jade` distro by running `/usr/bin/bloom-release -t jade -r jade wireless --new-track` on `Tue, 16 Aug 2016 13:42:43 -0000`
+
+These packages were released:
+- `wireless_msgs`
+- `wireless_watcher`
+
+Version of package(s) in repository `wireless`:
+
+- upstream repository: https://github.com/clearpathrobotics/wireless.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.7-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## wireless (indigo) - 0.0.7-0
 
 The packages in the `wireless` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --ros-distro indigo wireless` on `Wed, 09 Sep 2015 19:35:54 -0000`
