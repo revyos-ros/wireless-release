@@ -1,0 +1,12 @@
+Source: ros-jade-wireless-msgs
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-message-generation, ros-jade-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-wireless-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-message-runtime, ros-jade-std-msgs
+Description: Messages for describing aspects of a wireless network, connection, etc.
