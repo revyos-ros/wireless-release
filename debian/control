@@ -1,0 +1,12 @@
+Source: ros-jade-wireless-watcher
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-wireless-watcher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-rospy, ros-jade-wireless-msgs
+Description: The wireless_watcher package
