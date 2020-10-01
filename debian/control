@@ -1,0 +1,12 @@
+Source: ros-melodic-wireless-msgs
+Section: misc
+Priority: optional
+Maintainer: Mike Purvis <mpurvis@clearpath.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-wireless-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-message-runtime, ros-melodic-std-msgs
+Description: Messages for describing a wireless network such as bitrate, essid, and link quality.

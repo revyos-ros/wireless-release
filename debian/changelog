@@ -1,0 +1,70 @@
+ros-melodic-wireless-msgs (0.1.1-1stretch) stretch; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpath.ai>  Fri, 01 May 2020 04:00:00 -0000
+
+ros-melodic-wireless-msgs (0.1.0-1stretch) stretch; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpath.ai>  Thu, 10 Oct 2019 04:00:00 -0000
+
+ros-melodic-wireless-msgs (0.0.9-1stretch) stretch; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpath.ai>  Tue, 27 Nov 2018 05:00:00 -0000
+
+ros-melodic-wireless-msgs (0.0.8-1stretch) stretch; urgency=high
+
+  * Package format 2.
+  * Contributors: Mike Purvis
+
+ -- Mike Purvis <mpurvis@clearpath.ai>  Wed, 07 Nov 2018 05:00:00 -0000
+
+ros-melodic-wireless-msgs (0.0.7-1stretch) stretch; urgency=high
+
+  * Added frequency to watcher node
+  * Contributors: Alex Bencz
+
+ -- Mike Purvis <mpurvis@clearpath.ai>  Wed, 09 Sep 2015 04:00:00 -0000
+
+ros-melodic-wireless-msgs (0.0.6-1stretch) stretch; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpath.ai>  Wed, 02 Sep 2015 04:00:00 -0000
+
+ros-melodic-wireless-msgs (0.0.5-1stretch) stretch; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpath.ai>  Tue, 25 Aug 2015 04:00:00 -0000
+
+ros-melodic-wireless-msgs (0.0.4-1stretch) stretch; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpath.ai>  Thu, 25 Jun 2015 04:00:00 -0000
+
+ros-melodic-wireless-msgs (0.0.3-1stretch) stretch; urgency=high
+
+  * Added ESSID and BSSID fields, use floats for bitrate
+  * Contributors: Alex Bencz
+
+ -- Mike Purvis <mpurvis@clearpath.ai>  Wed, 17 Jun 2015 04:00:00 -0000
+
+ros-melodic-wireless-msgs (0.0.2-1stretch) stretch; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpath.ai>  Thu, 24 Oct 2013 04:00:00 -0000
+
+ros-melodic-wireless-msgs (0.0.1-1stretch) stretch; urgency=high
+
+  * Catkinize wireless_msgs
+
+ -- Mike Purvis <mpurvis@clearpath.ai>  Thu, 17 Oct 2013 04:00:00 -0000
+
+
