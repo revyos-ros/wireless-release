@@ -1,3 +1,28 @@
+## wireless (melodic) - 0.1.1-1
+
+The packages in the `wireless` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic wireless` on `Thu, 01 Oct 2020 23:55:27 -0000`
+
+These packages were released:
+- `wireless_msgs`
+- `wireless_watcher`
+
+Version of package(s) in repository `wireless`:
+
+- upstream repository: https://github.com/clearpathrobotics/wireless.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.8`
+- catkin_pkg version: `0.4.22`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## wireless (kinetic) - 0.0.7-0
 
 The packages in the `wireless` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -t kinetic -r kinetic wireless --new-track` on `Tue, 16 Aug 2016 13:45:48 -0000`
