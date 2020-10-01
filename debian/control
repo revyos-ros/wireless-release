@@ -1,0 +1,12 @@
+Source: ros-melodic-wireless-watcher
+Section: misc
+Priority: optional
+Maintainer: Mike Purvis <mpurvis@clearpath.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-wireless-watcher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-rospy, ros-melodic-wireless-msgs
+Description: A Python-based which publishes connection information about a linux wireless interface.
