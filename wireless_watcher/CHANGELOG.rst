@@ -2,6 +2,28 @@
 Changelog for package wireless_watcher
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.1 (2020-05-01)
+------------------
+* Improve connected detection logic so topic doesn't stop when interface is down
+* Contributors: Nikesh Bernardshaw
+
+0.1.0 (2019-10-10)
+------------------
+* Python 3 fixes for watcher_node. (`#10 <https://github.com/clearpathrobotics/wireless/issues/10>`_)
+* Contributors: Mike Purvis
+
+0.0.9 (2018-11-27)
+------------------
+* Accept 'wifi' as device prefix for auto-detection.
+* Contributors: Mike Purvis
+
+0.0.8 (2018-11-07)
+------------------
+* Package format 2.
+* Further pep8 fixups.
+* Auto-detect wl* device if not passed explicitly.
+* Contributors: Mike Purvis
+
 0.0.7 (2015-09-09)
 ------------------
 * Added frequency to watcher node
