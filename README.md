@@ -1,3 +1,28 @@
+## wireless (noetic) - 0.1.2-1
+
+The packages in the `wireless` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -t noetic -r noetic wireless` on `Tue, 30 Nov 2021 16:13:49 -0000`
+
+These packages were released:
+- `wireless_msgs`
+- `wireless_watcher`
+
+Version of package(s) in repository `wireless`:
+
+- upstream repository: https://github.com/clearpathrobotics/wireless.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.1.1-2`
+- new version: `0.1.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## wireless (noetic) - 0.1.1-2
 
 The packages in the `wireless` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic -t noetic wireless` on `Fri, 02 Oct 2020 00:08:55 -0000`
