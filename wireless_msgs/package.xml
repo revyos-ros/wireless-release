@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>wireless_msgs</name>
+  <version>0.1.1</version>
+  <description>Messages for describing a wireless network such as bitrate, essid, and link quality.</description>
+
+  <maintainer email="mpurvis@clearpath.ai">Mike Purvis</maintainer>
+  <author>Mike Purvis</author>
+  
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <depend>std_msgs</depend>
+</package>
