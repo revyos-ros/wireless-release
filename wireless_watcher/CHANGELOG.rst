@@ -2,6 +2,11 @@
 Changelog for package wireless_watcher
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.2 (2021-11-30)
+------------------
+* Add wireless-tools as a dependency (`#14 <https://github.com/clearpathrobotics/wireless/issues/14>`_)
+* Contributors: Chris I-B
+
 0.1.1 (2020-05-01)
 ------------------
 * Improve connected detection logic so topic doesn't stop when interface is down
