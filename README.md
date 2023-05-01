@@ -1,3 +1,28 @@
+## wireless (foxy) - 1.0.1-1
+
+The packages in the `wireless` repository were released into the `foxy` distro by running `/usr/bin/bloom-release wireless -r foxy -t foxy` on `Mon, 01 May 2023 13:07:35 -0000`
+
+These packages were released:
+- `wireless_msgs`
+- `wireless_watcher`
+
+Version of package(s) in repository `wireless`:
+
+- upstream repository: https://github.com/clearpathrobotics/wireless.git
+- release repository: https://github.com/clearpath-gbp/wireless-release.git
+- rosdistro version: `1.0.0-1`
+- old version: `1.0.0-1`
+- new version: `1.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## wireless (foxy) - 1.0.0-1
 
 The packages in the `wireless` repository were released into the `foxy` distro by running `/usr/bin/bloom-release -r foxy -t foxy wireless` on `Sun, 16 Oct 2022 14:51:48 -0000`
