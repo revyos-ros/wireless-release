@@ -1,3 +1,28 @@
+## wireless (humble) - 1.0.1-2
+
+The packages in the `wireless` repository were released into the `humble` distro by running `/usr/bin/bloom-release wireless -r humble -t humble` on `Wed, 03 May 2023 13:48:42 -0000`
+
+These packages were released:
+- `wireless_msgs`
+- `wireless_watcher`
+
+Version of package(s) in repository `wireless`:
+
+- upstream repository: https://github.com/clearpathrobotics/wireless.git
+- release repository: https://github.com/clearpath-gbp/wireless-release.git
+- rosdistro version: `1.0.1-1`
+- old version: `1.0.1-1`
+- new version: `1.0.1-2`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## wireless (humble) - 1.0.1-1
 
 The packages in the `wireless` repository were released into the `humble` distro by running `/usr/bin/bloom-release wireless -r humble -t humble` on `Mon, 01 May 2023 13:12:59 -0000`
