@@ -1,0 +1,113 @@
+ros-humble-wireless-watcher (1.1.0-1bullseye) bullseye; urgency=high
+
+  * License
+  * Reimplemented in C++
+  * Use time.sleep instead of rate.sleep to properly exit loop on external shutdown
+    Default 'dev' parameter to empty string rather than None
+  * Contributors: Roni Kreinin
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Tue, 05 Mar 2024 16:00:00 -0000
+
+ros-humble-wireless-watcher (1.0.1-1bullseye) bullseye; urgency=high
+
+  * [wireless_watcher] Switched to underscores to get rid of usage of dash-separated warning.
+  * Contributors: Tony Baltovski
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Sun, 30 Apr 2023 16:00:00 -0000
+
+ros-humble-wireless-watcher (1.0.0-1bullseye) bullseye; urgency=high
+
+  * Minor fixes
+  * Added previous changelogs
+  * Updated wireless_msgs for ROS2.
+    Updated wireless_watcher for ROS2.
+  * Contributors: Roni Kreinin
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Sat, 15 Oct 2022 16:00:00 -0000
+
+ros-humble-wireless-watcher (0.1.2-1bullseye) bullseye; urgency=high
+
+  * Add wireless-tools as a dependency (#14 <https://github.com/clearpathrobotics/wireless/issues/14>)
+  * Contributors: Chris I-B
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Mon, 29 Nov 2021 16:00:00 -0000
+
+ros-humble-wireless-watcher (0.1.1-1bullseye) bullseye; urgency=high
+
+  * Improve connected detection logic so topic doesn't stop when interface is down
+  * Contributors: Nikesh Bernardshaw
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Thu, 30 Apr 2020 16:00:00 -0000
+
+ros-humble-wireless-watcher (0.1.0-1bullseye) bullseye; urgency=high
+
+  * Python 3 fixes for watcher_node. (#10 <https://github.com/clearpathrobotics/wireless/issues/10>)
+  * Contributors: Mike Purvis
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Wed, 09 Oct 2019 16:00:00 -0000
+
+ros-humble-wireless-watcher (0.0.9-1bullseye) bullseye; urgency=high
+
+  * Accept 'wifi' as device prefix for auto-detection.
+  * Contributors: Mike Purvis
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Mon, 26 Nov 2018 16:00:00 -0000
+
+ros-humble-wireless-watcher (0.0.8-1bullseye) bullseye; urgency=high
+
+  * Package format 2.
+  * Further pep8 fixups.
+  * Auto-detect wl* device if not passed explicitly.
+  * Contributors: Mike Purvis
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Tue, 06 Nov 2018 16:00:00 -0000
+
+ros-humble-wireless-watcher (0.0.7-1bullseye) bullseye; urgency=high
+
+  * Added frequency to watcher node
+  * Contributors: Alex Bencz
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Tue, 08 Sep 2015 16:00:00 -0000
+
+ros-humble-wireless-watcher (0.0.6-1bullseye) bullseye; urgency=high
+
+  * Added queue_size parameter to publishers
+  * Contributors: Mustafa Safri
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Tue, 01 Sep 2015 16:00:00 -0000
+
+ros-humble-wireless-watcher (0.0.5-1bullseye) bullseye; urgency=high
+
+  * Added checks for missing fields
+  * Contributors: Mustafa Safri
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Mon, 24 Aug 2015 16:00:00 -0000
+
+ros-humble-wireless-watcher (0.0.4-1bullseye) bullseye; urgency=high
+
+  * Add install rule for launch dir
+  * Contributors: Paul Bovbel
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Wed, 24 Jun 2015 16:00:00 -0000
+
+ros-humble-wireless-watcher (0.0.3-1bullseye) bullseye; urgency=high
+
+  * Added ESSID and BSSID fields, use floats for bitrate
+  * Contributors: Alex Bencz
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Tue, 16 Jun 2015 16:00:00 -0000
+
+ros-humble-wireless-watcher (0.0.2-1bullseye) bullseye; urgency=high
+
+  * Workaround to suppress DummyThread error spew.
+  * Add simple boolean to publish ethernet-has-ip status.
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Wed, 23 Oct 2013 16:00:00 -0000
+
+ros-humble-wireless-watcher (0.0.1-1bullseye) bullseye; urgency=high
+
+  * Catkinize wireless_watcher
+
+ -- rkreinin <rkreinin@clearpathrobotics.com>  Wed, 16 Oct 2013 16:00:00 -0000
+
+
