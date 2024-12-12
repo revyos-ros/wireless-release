@@ -2,6 +2,11 @@
 Changelog for package wireless_watcher
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.2 (2024-12-11)
+------------------
+* Define static type in template (`#21 <https://github.com/clearpathrobotics/wireless/issues/21>`_)
+* Contributors: luis-camero
+
 1.1.1 (2024-08-29)
 ------------------
 * Set NaN when empty BitRate/Frequency
