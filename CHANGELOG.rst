@@ -2,6 +2,16 @@
 Changelog for package wireless_watcher
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.5 (2025-04-30)
+------------------
+* Added Github codeowners, issue template, CI.  Also, fixed linting. (`#24 <https://github.com/clearpathrobotics/wireless/issues/24>`_)
+* Contributors: Tony Baltovski
+
+1.1.4 (2025-04-21)
+------------------
+* Add IP address info in diagnostic (`#23 <https://github.com/clearpathrobotics/wireless/issues/23>`_)
+* Contributors: Hilary Luo
+
 1.1.3 (2025-03-03)
 ------------------
 * demark private variables with underscore
