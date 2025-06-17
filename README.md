@@ -1,3 +1,28 @@
+## wireless (humble) - 1.1.5-1
+
+The packages in the `wireless` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r humble wireless --override-release-repository-push-url git@github.com:revyos-ros/wireless-release.git` on `Tue, 17 Jun 2025 03:51:54 -0000`
+
+These packages were released:
+- `wireless_msgs`
+- `wireless_watcher`
+
+Version of package(s) in repository `wireless`:
+
+- upstream repository: https://github.com/clearpathrobotics/wireless.git
+- release repository: https://github.com/revyos-ros/wireless-release.git
+- rosdistro version: `1.1.5-2`
+- old version: `1.1.3-1`
+- new version: `1.1.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## wireless (humble) - 1.1.3-1
 
 The packages in the `wireless` repository were released into the `humble` distro by running `/root/venv/bin/bloom-release -r humble wireless --override-release-repository-push-url git@github.com:revyos-ros/wireless-release.git` on `Thu, 06 Mar 2025 03:52:01 -0000`
