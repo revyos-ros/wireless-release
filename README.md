@@ -1,3 +1,28 @@
+## wireless (jazzy) - 1.1.5-2
+
+The packages in the `wireless` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy wireless --override-release-repository-push-url git@github.com:revyos-ros/wireless-release.git` on `Wed, 18 Jun 2025 06:00:16 -0000`
+
+These packages were released:
+- `wireless_msgs`
+- `wireless_watcher`
+
+Version of package(s) in repository `wireless`:
+
+- upstream repository: https://github.com/clearpathrobotics/wireless.git
+- release repository: https://github.com/revyos-ros/wireless-release.git
+- rosdistro version: `1.1.5-1`
+- old version: `1.1.5-1`
+- new version: `1.1.5-2`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## wireless (jazzy) - 1.1.5-1
 
 The packages in the `wireless` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy wireless --override-release-repository-push-url git@github.com:revyos-ros/wireless-release.git` on `Wed, 18 Jun 2025 04:00:31 -0000`
